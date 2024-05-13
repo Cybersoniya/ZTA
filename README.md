@@ -15,9 +15,9 @@ So 1st we need to Open a ssh service in our targeted host, here i am use the win
 7. Start attack through hydra tool (our target is SSH in our windows 10)
 8. hydra -L username list -P Password list target ip ssh
 
-   -L for username list that we are created for bruteforce attack
-   -P for password list that we are created for bruteforce attack
-   target ip = our windows ip 
+   a. -L for username list that we are created for bruteforce attack
+   b. -P for password list that we are created for bruteforce attack
+   c. target ip = our windows ip 
 
 9. Open wazuh and go through the Security Events
 10. We can see the alerts of our attacks is created
