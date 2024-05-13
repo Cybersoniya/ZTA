@@ -8,7 +8,7 @@ As per the ZTA we are going to check our Wazuh tool for identifying the attacks 
 So 1st we need to Open a ssh service in our targeted host, here i am use the windows 10
 1. Go to settings--manage optiontal features--add new feature--ssh server install
 2. Open our wazuh server from virtualbox/vmware
-3. Open our web client using the wazuh server ip   (eg  https://wazuh ip)
+3. Open our web client using the wazuh server ip   (eg  https:// wazuh ip)
 4. Default username and password is admin and admin 
 5. Add Agent in Wazuh  ( click the add agent icon and add your correspond os agent)
 6. Open kali Linux 
